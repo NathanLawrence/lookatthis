@@ -1,0 +1,9 @@
+COPY_GOOGLE_DOC_KEY = '1Ml6nCWyITnobpUbZcMw5jfY2OrHePg30ffFFfpCUxKo'
+DEPLOY_SLUG = '2015-in-review'
+NUM_SLIDES_AFTER_CONTENT = 2
+
+# Configuration
+AUDIO = False
+VIDEO = False
+FILMSTRIP = False
+PROGRESS_BAR = False
