@@ -25,7 +25,7 @@ PROJECT_FILENAME = 'lookatthis'
 
 # The name of the repository containing the source
 REPOSITORY_NAME = 'lookatthis'
-REPOSITORY_URL = 'git@github.com:nprapps/%s.git' % REPOSITORY_NAME
+REPOSITORY_URL = 'git@github.com:nathanlawrence/%s.git' % REPOSITORY_NAME
 
 # Project name used for assets rig
 # Should stay the same, even if PROJECT_SLUG changes
@@ -37,17 +37,17 @@ POST_PATH = 'posts'
 DEPLOYMENT
 """
 PRODUCTION_S3_BUCKET = {
-    'bucket_name': 'apps.npr.org',
+    'bucket_name': 'apps.kbia.org',
     'region': 'us-east-1'
 }
 
 STAGING_S3_BUCKET = {
-    'bucket_name': 'stage-apps.npr.org',
+    'bucket_name': 'stage-apps.kbia.org',
     'region': 'us-east-1'
 }
 
 ASSETS_S3_BUCKET = {
-    'bucket_name': 'assets.apps.npr.org',
+    'bucket_name': 'assets.apps.kbia.org',
     'region': 'us-east-1'
 }
 
@@ -91,7 +91,7 @@ TUMBLR_GOOGLE_ANALYTICS = {
 }
 
 PROJECT_GOOGLE_ANALYTICS = {
-    'ACCOUNT_ID': 'UA-5828686-4',
+    'ACCOUNT_ID': 'UA-71696131-1',
     'DOMAIN': PRODUCTION_S3_BUCKET['bucket_name'],
     'TOPICS': '' # e.g. '[1014,3,1003,1002,1001]'
 }
